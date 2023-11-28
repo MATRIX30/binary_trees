@@ -5,12 +5,12 @@
 `Algorithm`
 `Data structure`
 
- - By: Alexandre Gautier
- - Weight: 5
- - Project to be done in teams of 2 people (your team: Tekoh Palma ACHU)
- - Project will start Nov 27, 2023 4:00 AM, must end by Dec 1, 2023 4:00 AM
- - Checker will be released at Nov 28, 2023 4:00 AM
- - An auto review will be launched at the deadline
+ - 🦸‍♂️ By: Alexandre Gautier
+ - 🥇 Weight: 5
+ - 📽️ Project to be done in teams of 2 people (your team: Tekoh Palma ACHU)
+ - ⏰ Project will start Nov 27, 2023 4:00 AM, must end by Dec 1, 2023 4:00 AM
+ - ✅ Checker will be released at Nov 28, 2023 4:00 AM
+ - 💻 An auto review will be launched at the deadline
 
 ## Resources
 
