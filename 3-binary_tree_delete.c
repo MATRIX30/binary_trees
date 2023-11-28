@@ -14,6 +14,7 @@ void binary_tree_delete(binary_tree_t *tree)
 	/* base case*/
 	if (tree->left == NULL && tree->right == NULL)
 	{
+		/* if its the root not just free*/
 		if (tree->parent == NULL)
 		{
 			free(tree);
@@ -31,7 +32,7 @@ void binary_tree_delete(binary_tree_t *tree)
 			free(tree);
 		}
 	}
-
+	
 
 
 }
