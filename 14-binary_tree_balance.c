@@ -13,17 +13,23 @@ int binary_tree_balance(const binary_tree_t *tree)
 	{
 		return (0);
 	}
-	tmp = tree->left;
-	while (tmp != NULL)
+	if (tree->left != NULL)
 	{
-		left_height += 1;
-		tmp = tmp->left;
+		tmp = tree->left;
+		while (tmp != NULL)
+		{
+			left_height += 1;
+			tmp = tmp->left;
+		}
 	}
-	tmp = tree->right;
-	while (tmp != NULL)
+	if (tree->right != NULL)
 	{
-		right_height += 1;
-		tmp = tmp->right;
+		tmp = tree->right;
+		while (tmp != NULL)
+		{
+			right_height += 1;
+			tmp = tmp->right;
+		}
 	}
 	return (left_height - right_height);
 }
